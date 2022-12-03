@@ -3,8 +3,8 @@
 
 int main()
 {
-    long long number;
-    scanf("%lli\n", &number);
+    int n;
+    scanf("%i/n", &n);
     char inp='k';
     int p=1;
     long long int andis=-1;
@@ -32,8 +32,7 @@ int main()
                     {
                         andis=1;
                     }
-                    answer+=p*andis*pow(number,t);
-		   
+                    answer+=p*andis*pow(n,t);
                     andis=-1;
                     p=1;
                 }
